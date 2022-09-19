@@ -1,10 +1,14 @@
+
+
 var topics = ["HTML", "CSS", "Git", "JavaScript"];
+
 
 function listTopics() {
   for (var x = 0; x < topics.length; x++) {
     console.log(topics[x]);
   }
 }
+
 
 function selectTopic() {
   if (topic === "HTML") {
@@ -19,3 +23,4 @@ function selectTopic() {
     console.log("Please try again!");
   }
 }
+
